@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+#quote {
+    border: none;
+}
+
 .navbar {
   background-color: #7fffd4;
   border-bottom-color: #66cdaa;
