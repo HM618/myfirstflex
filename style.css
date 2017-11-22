@@ -6,7 +6,7 @@
 }
 
 #quote {
-    border: none;
+  border: none;
 }
 
 .navbar {
@@ -16,6 +16,8 @@
 
 .navbar-inverse {
   background-color: #7fffd4 !important;
+  border: 5px solid #66cdaa;
+  width: 100%;
 }
 
 .container .navHeaderCollapse .nav li a {
@@ -48,10 +50,8 @@
 
 #myNavbar {
   background-color: #7fffd4;
-  border: 5px solid #66cdaa;
   padding-top: 55px;
   font-weight: bolder;
-  margin: -25px;
 }
 
 .navbar-header {
@@ -62,8 +62,7 @@
 .navbar-nav {
   font-family: 'Dosis', sans-serif;
   font-size: 25px;
-  text-indent: 15px;
-  padding-right: 15px;
+  text-align: center;
 }
 
 .container {
@@ -76,6 +75,10 @@
   font-size: 30px;
   font-weight: bolder;
   text-decoration: underline;
+}
+
+#featuredpic {
+  margin-left: 15.5%;
 }
 
 .mybox {
@@ -92,6 +95,7 @@
 }
 
 .img-circle {
+  align-items: center;
   border-radius: 10%;
 }
 
